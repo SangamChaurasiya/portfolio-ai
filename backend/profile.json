@@ -1,0 +1,211 @@
+{
+  "personal_information": {
+    "name": "Sangam Chaurasiya",
+    "professional_title": "Sr. Python Developer",
+    "phone": "+91-6306703714",
+    "email": "sangam.chaurasiya0604@gmail.com",
+    "linkedin": "LinkedIn profile referenced in resume; URL not provided in extracted text"
+  },
+  "professional_summary": "Experienced Software Developer with proven experience in developing web applications and backend systems using Python and Django. Skilled at writing clear, concise code that is easy to maintain and troubleshoot. Having high capability to led multiple senior class projects to the completion. Able to work independently in office environments or remote locations as needed by the company.",
+  "technical_skills": {
+    "languages_and_frameworks": [
+      "Python",
+      "Django",
+      "Flask",
+      "FastAPI",
+      "JavaScript"
+    ],
+    "databases": [
+      "PostgreSQL",
+      "MySQL",
+      "Redis",
+      "MongoDB"
+    ],
+    "tools_and_software": [
+      "VS Code",
+      "PyCharm",
+      "Postman",
+      "AWS"
+    ],
+    "hard_skills": [
+      "API Development",
+      "Debugging",
+      "Prompt Engineering",
+      "Problem Solving",
+      "Technical Presentations"
+    ]
+  },
+  "work_experience": [
+    {
+      "company": "MethodHub Software Limited",
+      "position": "Sr. Python Developer",
+      "start_date": "August 2025",
+      "end_date": "Present",
+      "location": "Mohali, Punjab",
+      "responsibilities": [
+        "Developed and maintained backend services using Python and Django.",
+        "Built and integrated REST APIs for communication between services.",
+        "Managed relational data using PostgreSQL and worked with MongoDB for NoSQL solutions.",
+        "Collaborated with frontend teams to integrate APIs with React-based applications.",
+        "Performed code reviews, debugging, and backend performance optimization.",
+        "Worked in Agile environments to deliver reliable and scalable applications."
+      ],
+      "technologies": [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "MongoDB",
+        "REST APIs",
+        "React"
+      ]
+    },
+    {
+      "company": "Alkye Services Private Limited",
+      "position": "Sr. Python Developer",
+      "start_date": "January 2025",
+      "end_date": "August 2025",
+      "location": "Mohali, Punjab",
+      "project_context": "Retail AI solution for profit optimization.",
+      "responsibilities": [
+        "Contributed to the development of a Retail AI solution aimed at profit optimization by analysing dynamic reports at weekly, monthly, quarterly, and seasonal levels, enabling data-driven decision making for retail businesses.",
+        "Developed and optimized core features using Django, Python, PostgreSQL, and Redis.",
+        "Improved response time by 30%.",
+        "Improved code quality by 20% by resolving complexity and addressing major changes in the execution flow.",
+        "Delivered technical presentations to stakeholders, aligning solutions with business goals."
+      ],
+      "technologies": [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "Redis"
+      ],
+      "achievements": [
+        {
+          "metric": "30%",
+          "description": "Improvement in response time"
+        },
+        {
+          "metric": "20%",
+          "description": "Improvement in code quality"
+        }
+      ]
+    },
+    {
+      "company": "Ciel HR Services Pvt. Ltd.",
+      "position": "Software Developer",
+      "start_date": "May 2023",
+      "end_date": "September 2024",
+      "location": "Mumbai, Maharashtra",
+      "responsibilities": [
+        "Migrated the world's first cloud-based membrane projection software from a legacy tech stack to Python and Django.",
+        "Introduced optimized algorithms that reduced processing time by 40% and improved application scalability and responsiveness across devices."
+      ],
+      "technologies": [
+        "Python",
+        "Django"
+      ],
+      "achievements": [
+        {
+          "metric": "40%",
+          "description": "Reduction in processing time through optimized algorithms"
+        }
+      ]
+    },
+    {
+      "company": "Reva Solutions",
+      "position": "Software Developer",
+      "start_date": "July 2021",
+      "end_date": "March 2023",
+      "location": "Hyderabad, Telangana",
+      "work_arrangement": "Work from home",
+      "project": "Rapid Risk Management System",
+      "responsibilities": [
+        "Developed the Rapid Risk Management System, allowing customers to view notifications and service alerts based on AI/ML data.",
+        "Collaborated with data to integrate real-time notifications, providing customers with timely alerts for vehicle maintenance."
+      ],
+      "technologies_and_concepts": [
+        "Python",
+        "AI/ML-based data",
+        "Real-time notifications",
+        "Vehicle maintenance alerts"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Subscription Platform with Django",
+      "description": "A full-stack SaaS web application that allows users to register, manage accounts, and subscribe to premium services using PayPal. Built from the ground up to demonstrate real-world Django architecture and third-party integrations.",
+      "technologies": [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "PayPal API",
+        "Amazon S3",
+        "JavaScript",
+        "Bootstrap"
+      ],
+      "key_features": [
+        "Custom user authentication with email verification and secure password reset.",
+        "Subscription management using PayPal API, including create, cancel, and optional update logic.",
+        "Admin-side CRUD for articles and user data.",
+        "Amazon S3 for scalable media storage."
+      ]
+    },
+    {
+      "name": "Multi-Vendor Restaurant Marketplace",
+      "description": "A full-scale, production-ready web application where multiple vendors can register, list their restaurants, and manage orders, while users can search nearby eateries, place orders, and make payments—all in a dynamic, responsive interface.",
+      "technologies": [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "JavaScript",
+        "AJAX",
+        "Bootstrap",
+        "Razorpay",
+        "PayPal",
+        "Google Maps API"
+      ],
+      "key_features": [
+        "Multi-vendor system with vendor approval, dashboards, and profile management.",
+        "Dynamic location-based search with Google Autocomplete and geolocation to display nearby restaurants.",
+        "Custom user model and email/token-based verification for secure onboarding.",
+        "Dynamic modules for business hours and tax settings per vendor.",
+        "Payment gateway integrations with Razorpay and PayPal for seamless transactions."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "qualification": "Bachelor of Science in Information Technology (IT)",
+      "institution": "Himalayan University",
+      "start_year": 2018,
+      "end_year": 2021
+    },
+    {
+      "qualification": "Intermediate (12th)",
+      "institution": "Saraswati Vidya Mandir Inter College",
+      "year": 2018
+    },
+    {
+      "qualification": "High School (10th)",
+      "institution": "Saraswati Vidya Mandir Inter College",
+      "year": 2016
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "proficiency": "Full Professional Proficiency"
+    },
+    {
+      "name": "Hindi",
+      "proficiency": "Native or Bilingual Proficiency"
+    }
+  ],
+  "interests": [
+    "Problem Solving",
+    "Ready to learn new skills",
+    "Tech Reviews",
+    "Playing Cricket"
+  ]
+}
