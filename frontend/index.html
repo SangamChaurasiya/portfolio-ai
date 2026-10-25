@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0d12">
+  <meta name="description" content="Sangam Chaurasiya — Senior Python Developer portfolio and AI assistant.">
+  <title>Sangam Chaurasiya | Python Developer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#home"><span class="brand-mark">&lt;/&gt;</span><span id="brand-name">Sangam<span class="brand-dot">.</span></span></a>
+    <button class="mobile-toggle icon-button" id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" id="nav-links">
+      <a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a>
+      <button class="nav-contact" data-open-chat>Ask AI <span>✦</span></button>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero section-wrap">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> OPEN TO INTERESTING PROBLEMS</div>
+        <h1>Building systems<br>that <span class="gradient-text">work smarter.</span></h1>
+        <p class="hero-intro">Hey, I’m <strong id="hero-name">Sangam Chaurasiya</strong> — <span id="hero-title">Sr. Python Developer</span>. I build thoughtful backend solutions, useful APIs, and dependable integrations.</p>
+        <div class="hero-actions">
+          <a class="button-primary" href="#projects">Explore my work <span>↘</span></a>
+          <button class="button-secondary" data-open-chat><span>◉</span> Chat with my AI</button>
+        </div>
+        <div class="hero-meta">
+          <span><span class="meta-icon">⌘</span> Python · APIs · Automation</span>
+          <span class="api-indicator checking" id="api-status"><span></span> Connecting to backend</span>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="profile-card">
+          <div class="card-topline"><span>PROFILE / 001</span><span class="card-live"><span></span> AVAILABLE</span></div>
+          <div class="avatar" id="avatar">SC</div>
+          <h2 id="card-name">Sangam Chaurasiya</h2><p id="card-title">Sr. Python Developer</p>
+          <div class="terminal-window">
+            <div class="terminal-head"><span></span><span></span><span></span><small>about.py</small></div>
+            <div class="terminal-code">
+              <div><i>01</i><b>class</b> <em>Developer</em>:</div>
+              <div><i>02</i>  <b>def</b> <strong>build</strong>(self):</div>
+              <div><i>03</i>    <u>return</u> <mark>"useful things"</mark></div>
+              <div class="terminal-cursor"><i>04</i><span></span></div>
+            </div>
+          </div>
+          <div class="card-foot"><span>⚡ Curious by default</span><span>PY / API / AI</span></div>
+        </div>
+        <div class="float-chip chip-one"><span class="chip-icon">⌘</span><span><b>Clean code</b><small>Built to maintain</small></span></div>
+        <div class="float-chip chip-two"><span class="chip-icon purple">✦</span><span><b>AI-powered</b><small>Ask about my work</small></span></div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section-wrap intro-section" id="about">
+      <div class="section-heading"><span class="section-kicker">01 / ABOUT ME</span><h2>Engineering with <span class="gradient-text">intent.</span></h2></div>
+      <div class="about-grid">
+        <p class="about-lead" id="summary">I build reliable backend systems, APIs, and integrations with Python. I enjoy solving practical engineering problems and turning complex workflows into maintainable software.</p>
+        <div class="about-note"><span class="note-icon">✦</span><div><h3>My approach</h3><p>Practical problem-solving, clear communication, and code that the next developer can understand.</p></div></div>
+      </div>
+      <div class="value-row">
+        <div class="value-card"><span>01</span><h3>Reliable by design</h3><p>Robust APIs and predictable systems.</p></div>
+        <div class="value-card"><span>02</span><h3>Curious mindset</h3><p>Always learning, always improving.</p></div>
+        <div class="value-card"><span>03</span><h3>Outcome focused</h3><p>Technology in service of real needs.</p></div>
+      </div>
+    </section>
+
+    <section class="section-wrap content-section" id="experience">
+      <div class="section-heading row-heading"><div><span class="section-kicker">02 / EXPERIENCE</span><h2>Where I’ve <span class="gradient-text">contributed.</span></h2></div><span class="heading-icon">▤</span></div>
+      <div class="timeline" id="experience-list"><div class="empty-state">Experience details will appear here when the profile API returns them.</div></div>
+    </section>
+
+    <section class="section-wrap content-section projects-section" id="projects">
+      <div class="section-heading row-heading"><div><span class="section-kicker">03 / SELECTED WORK</span><h2>Projects in <span class="gradient-text">practice.</span></h2></div><span class="heading-icon">▧</span></div>
+      <div class="project-grid" id="project-list"><div class="empty-state">Projects will appear here when they’re available in the profile API.</div></div>
+    </section>
+
+    <section class="section-wrap content-section skills-section" id="skills">
+      <div class="section-heading"><span class="section-kicker">04 / TOOLKIT</span><h2>Tools of the <span class="gradient-text">trade.</span></h2><p class="section-subtitle">A flexible toolkit for building, shipping, and maintaining software.</p></div>
+      <div class="skills-grid" id="skills-list"></div>
+      <div class="education-block" id="education-block" hidden><h3>▱ Education</h3><div id="education-list"></div></div>
+    </section>
+
+    <section class="section-wrap cta-section">
+      <div class="cta-panel"><div class="cta-glow"></div><span class="section-kicker">HAVE A QUESTION?</span><h2>Let’s talk about<br><span class="gradient-text">what I can build.</span></h2><p>My AI assistant can answer questions about my background, projects, and technical experience.</p><button class="button-primary" data-open-chat>Ask my AI assistant <span>↗</span></button><div class="cta-bot">◎<span>✦</span></div></div>
+    </section>
+  </main>
+
+  <footer class="footer section-wrap"><a class="brand" href="#home"><span class="brand-mark">&lt;/&gt;</span><span id="footer-brand">Sangam<span class="brand-dot">.</span></span></a><p>Designed with intent. Built with Python + curiosity.</p><span class="footer-copy" id="copyright"></span></footer>
+
+  <div class="chat-backdrop" id="chat-backdrop" hidden>
+    <section class="chat-panel" role="dialog" aria-modal="true" aria-label="Portfolio AI assistant">
+      <header class="chat-header"><div class="chat-avatar">✦</div><div class="chat-title"><h2>Portfolio AI</h2><p><span class="status-dot"></span> Ask me about Sangam</p></div><button class="icon-button close-chat" id="close-chat" aria-label="Close chat">×</button></header>
+      <div class="chat-context">✦ Answers are based on the portfolio profile</div>
+      <div class="chat-messages" id="chat-messages"></div>
+      <div class="suggested-questions" id="suggested-questions">
+        <button data-question="What are your core skills?">What are your core skills? <span>›</span></button>
+        <button data-question="Tell me about your experience">Tell me about your experience <span>›</span></button>
+        <button data-question="Which projects have you built?">Which projects have you built? <span>›</span></button>
+      </div>
+      <form class="chat-composer" id="chat-form"><input id="chat-input" placeholder="Ask a question..." maxlength="2000" aria-label="Ask a question" autocomplete="off"><button type="submit" id="send-button" aria-label="Send message">➤</button></form>
+      <p class="chat-footnote">AI-generated responses may not be perfect.</p>
+    </section>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
