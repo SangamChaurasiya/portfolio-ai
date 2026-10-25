@@ -2,7 +2,7 @@
   "use strict";
 
   // Configure this URL for your local FastAPI backend.
-  var API_BASE = "http://127.0.0.1:8000";
+  var API_BASE = "https://portfolio-ai-0j66.onrender.com/";
   var profile = null;
   var chatHistory = [];
   var isSending = false;
